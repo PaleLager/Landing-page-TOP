@@ -7,28 +7,32 @@ body {
 ul {
    list-style: none;
    display: flex;
-   width: 400px;
+   width: 420px;
    justify-content: space-between;
    padding-right: 120px;
+   gap: 20px;
+
 }
 
 a {
    text-decoration: none;
+   color: #f9faf8;
 }
 
 .header {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   background-color: #1f2937
 }
 
 .left-links {
    padding-left: 200px;
+   font-size: 24px;
+   font-weight: 1000;
 }
 
-/* .right-links {
-   display: flex;
-   justify-content: space-between;
-   padding-right: 100px;
-   width: 400px
-} */
+.right-links {
+   font-size: 18px;
+   color: #e5e7eb
+}
