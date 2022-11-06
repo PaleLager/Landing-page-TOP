@@ -23,7 +23,8 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #1f2937
+   background-color: #1f2937;
+   padding-bottom: 100px;
 }
 
 .left-links {
@@ -35,4 +36,54 @@ a {
 .right-links {
    font-size: 18px;
    color: #e5e7eb
+}
+
+.body-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1f2937
+}
+
+.body-container .body-leftside .body-title {
+   font-size: 48px;
+   font-weight: bolder;
+   color: #f9faf8;
+}
+
+.body-container .body-leftside .body-text,
+.body-container .body-rightside {
+   font-size: 18px;
+   color: #f9faf8;
+}
+
+.body-button {
+   background-color: #3882f6;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   padding: 5px 30px;
+}
+
+.body-leftside {
+   width: 460px;
+   height: 240px;
+}
+
+.body-rightside {
+   width: 525px;
+   height: 240px;
+   background: #85888d;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img-placeholder {
+   font-size: bold;
+}
+
+.body-text {
+   padding-bottom: 15px;
 }
